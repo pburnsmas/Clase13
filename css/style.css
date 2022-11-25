@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 2.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+nav ul li a:hover {
+  color: #069c54;
+}
+
+/*VARIABLES SIGNO DOLAR*/
+.text {
+  color: #24a0ed;
+}
+
+button {
+  color: #24a0ed;
+  border: 2px solid #24a0ed;
+}
+
+/*# sourceMappingURL=style.css.map */
